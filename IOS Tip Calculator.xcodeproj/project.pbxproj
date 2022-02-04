@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564A251A27AD048300BCF56D /* TipCalculatorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A251927AD048200BCF56D /* TipCalculatorState.swift */; };
+		566B684527ACD61700E699FA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566B684427ACD61700E699FA /* SettingsViewController.swift */; };
 		56AA917F2792B14F0075ACB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AA917E2792B14F0075ACB8 /* AppDelegate.swift */; };
 		56AA91812792B14F0075ACB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AA91802792B14F0075ACB8 /* SceneDelegate.swift */; };
 		56AA91832792B14F0075ACB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AA91822792B14F0075ACB8 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564A251927AD048200BCF56D /* TipCalculatorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorState.swift; sourceTree = "<group>"; };
+		566B684427ACD61700E699FA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		56AA917B2792B14F0075ACB8 /* IOS Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AA917E2792B14F0075ACB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56AA91802792B14F0075ACB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,9 +107,11 @@
 				56AA91802792B14F0075ACB8 /* SceneDelegate.swift */,
 				56AA91822792B14F0075ACB8 /* ViewController.swift */,
 				56AA91842792B14F0075ACB8 /* Main.storyboard */,
+				566B684427ACD61700E699FA /* SettingsViewController.swift */,
 				56AA91872792B1520075ACB8 /* Assets.xcassets */,
 				56AA91892792B1520075ACB8 /* LaunchScreen.storyboard */,
 				56AA918C2792B1520075ACB8 /* Info.plist */,
+				564A251927AD048200BCF56D /* TipCalculatorState.swift */,
 			);
 			path = "IOS Tip Calculator";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566B684527ACD61700E699FA /* SettingsViewController.swift in Sources */,
+				564A251A27AD048300BCF56D /* TipCalculatorState.swift in Sources */,
 				56AA91832792B14F0075ACB8 /* ViewController.swift in Sources */,
 				56AA917F2792B14F0075ACB8 /* AppDelegate.swift in Sources */,
 				56AA91812792B14F0075ACB8 /* SceneDelegate.swift in Sources */,
